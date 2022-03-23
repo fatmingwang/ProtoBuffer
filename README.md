@@ -19,26 +19,29 @@ download CMake and open it's GUI
 					https://cmake.org/
 /***************************************************************/
 where is the source code
-C:/Users/Fatming/Desktop/protobuf-cpp-3.19.4/protobuf-3.19.4/cmake
+	C:/Users/Fatming/Desktop/protobuf-cpp-3.19.4/protobuf-3.19.4/cmake
 where to build the binaries
 ex:
-C:/Users/Fatming/Desktop/protobuf-cpp-3.19.4/protobuf-3.19.4/VSProtoBuf
+	C:/Users/Fatming/Desktop/protobuf-cpp-3.19.4/protobuf-3.19.4/VSProtoBuf
 
 click configure
 click generate
 
 
+/***************************************************************/
+	now open protobuf.sln(C:/Users/Fatming/Desktop/protobuf-cpp-3.19.4/protobuf-3.19.4/VSProtoBuf)
+	compile protoc peoject after compiled copy protoc.exe to
+				ProtoBuffer\ProtoBufferTool\Prebuilt\bin
+	copy your poto files to ProtoBuffer\ProtoBufferTool\Prebuilt\bin\proto
+				double click  ProtoBuffer\ProtoBufferTool\Prebuilt\binto_cpp_proto.bat
+	now you get your file under  
+				ProtoBuffer\ProtoBufferTool\Prebuilt\cpp_proto
+/***************************************************************/
+
+
 use lite version
 add below line to *.proto file
 option optimize_for = LITE_RUNTIME;
-
-
-/***************************************************************/
-copy compiled protoc.exe to 
-				ProtoBuffer\ProtoBufferTool\Prebuilt\bin
-double click 
-				ProtoBuffer\ProtoBufferTool\Prebuilt\binto_cpp_proto.bat
-/***************************************************************/
 
 generate file for project
 for c++
