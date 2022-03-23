@@ -1,0 +1,1 @@
+protoc --proto_path=./proto --js_out=./cpp_proto  ./proto/*.proto
