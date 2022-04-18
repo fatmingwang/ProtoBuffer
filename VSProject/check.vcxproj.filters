@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject\CMakeFiles\b38fa88e0c200b6f591940b483797230\check.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject\CMakeFiles\check" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CC009D27-59D4-3584-B00D-65CB0976669B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

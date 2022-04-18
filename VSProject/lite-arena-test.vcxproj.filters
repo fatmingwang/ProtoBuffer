@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\lite_arena_unittest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\arena_test_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\map_lite_test_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\test_util_lite.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\map_lite_unittest.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\unittest_import_lite.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\unittest_import_public_lite.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\unittest_lite.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject\CMakeFiles\c36ad83d1daa3824c07beef7a953c915\map_lite_unittest.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject\CMakeFiles\c36ad83d1daa3824c07beef7a953c915\unittest_import_lite.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject\CMakeFiles\c36ad83d1daa3824c07beef7a953c915\unittest_import_public_lite.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject\CMakeFiles\c36ad83d1daa3824c07beef7a953c915\unittest_lite.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CC009D27-59D4-3584-B00D-65CB0976669B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AEB5B02B-4D6A-3024-9EF7-9F905BCD03A9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
