@@ -102,24 +102,24 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\Debug\</OutDir>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_NoPthread|x64'">E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject\Debug\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libprotobuf.dir\Debug\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\..\Intermedia\$(Configuration)\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_NoPthread|x64'">libprotobuf.dir\Debug\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libprotobufd</TargetName>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_NoPthread|x64'">libprotobufd</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectName)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_NoPthread|x64'">$(ProjectName)</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Emscripten'">$(ProjectName)</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_NoPthread|Emscripten'">$(ProjectName)</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug_NoPthread|x64'">.lib</TargetExt>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Emscripten'">.a</TargetExt>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug_NoPthread|Emscripten'">.a</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\Release\</OutDir>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_NoPthread|x64'">E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject\Release\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libprotobuf.dir\Release\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\..\Intermedia\$(Configuration)\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_NoPthread|x64'">libprotobuf.dir\Release\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libprotobuf</TargetName>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release_NoPthread|x64'">libprotobuf</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectName)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release_NoPthread|x64'">$(ProjectName)</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Emscripten'">$(ProjectName)</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release_NoPthread|Emscripten'">$(ProjectName)</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
@@ -129,7 +129,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\protobuf-3.19.4\src;..\protobuf-3.19.4\third_party\googletest\googlemock;..\protobuf-3.19.4\third_party\googletest\googletest;..\protobuf-3.19.4\third_party\googletest\googletest\include;..\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /utf-8 /bigobj</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -271,7 +271,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\protobuf-3.19.4\src;..\protobuf-3.19.4\third_party\googletest\googlemock;..\protobuf-3.19.4\third_party\googletest\googletest;..\protobuf-3.19.4\third_party\googletest\googletest\include;..\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /utf-8 /bigobj</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>4018;4065;4146;4244;4251;4267;4305;4307;4309;4334;4355;4506;4800;4996</DisableSpecificWarnings>
@@ -414,133 +414,133 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\any_lite.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\arena.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\arenastring.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\extension_set.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\generated_enum_util.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\generated_message_table_driven_lite.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\generated_message_tctable_lite.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\generated_message_util.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\implicit_weak_message.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\inlined_string_field.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\io\coded_stream.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\io\io_win32.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\io\strtod.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\io\zero_copy_stream.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\io\zero_copy_stream_impl.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\io\zero_copy_stream_impl_lite.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\map.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\message_lite.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\parse_context.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\repeated_field.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\repeated_ptr_field.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\stubs\bytestream.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\stubs\common.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\stubs\int128.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\stubs\status.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\stubs\statusor.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\stubs\stringpiece.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\stubs\stringprintf.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\stubs\structurally_valid.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\stubs\strutil.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\stubs\time.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\wire_format_lite.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\any.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\any.pb.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\api.pb.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\compiler\importer.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\compiler\parser.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\descriptor.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\descriptor.pb.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\descriptor_database.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\duration.pb.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\dynamic_message.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\empty.pb.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\extension_set_heavy.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\field_mask.pb.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\generated_message_bases.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\generated_message_reflection.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\generated_message_table_driven.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\generated_message_tctable_full.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\io\gzip_stream.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\io\printer.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\io\tokenizer.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\map_field.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\message.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\reflection_ops.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\service.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\source_context.pb.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\struct.pb.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\stubs\substitute.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\text_format.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\timestamp.pb.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\type.pb.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\unknown_field_set.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\delimited_message_util.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\field_comparator.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\field_mask_util.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\internal\datapiece.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\internal\default_value_objectwriter.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\internal\error_listener.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\internal\field_mask_utility.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\internal\json_escaping.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\internal\json_objectwriter.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\internal\json_stream_parser.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\internal\object_writer.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\internal\proto_writer.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\internal\protostream_objectsource.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\internal\protostream_objectwriter.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\internal\type_info.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\internal\utility.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\json_util.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\message_differencer.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\time_util.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\type_resolver_util.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\wire_format.cc" />
-    <ClCompile Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\wrappers.pb.cc" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\any.pb.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\api.pb.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\compiler\importer.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\compiler\parser.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\descriptor.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\descriptor.pb.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\descriptor_database.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\duration.pb.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\dynamic_message.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\empty.pb.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\field_access_listener.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\field_mask.pb.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\generated_enum_reflection.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\generated_message_bases.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\generated_message_reflection.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\io\gzip_stream.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\io\printer.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\io\tokenizer.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\map_entry.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\map_field.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\map_field_inl.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\message.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\metadata.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\reflection.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\reflection_ops.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\service.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\source_context.pb.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\struct.pb.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\text_format.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\timestamp.pb.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\type.pb.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\unknown_field_set.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\delimited_message_util.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\field_comparator.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\field_mask_util.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\json_util.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\message_differencer.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\time_util.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\type_resolver.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\util\type_resolver_util.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\wire_format.h" />
-    <ClInclude Include="E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src\google\protobuf\wrappers.pb.h" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\any_lite.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\arena.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\arenastring.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\extension_set.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\generated_enum_util.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\generated_message_table_driven_lite.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\generated_message_tctable_lite.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\generated_message_util.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\implicit_weak_message.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\inlined_string_field.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\io\coded_stream.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\io\io_win32.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\io\strtod.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\io\zero_copy_stream.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\io\zero_copy_stream_impl.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\io\zero_copy_stream_impl_lite.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\map.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\message_lite.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\parse_context.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\repeated_field.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\repeated_ptr_field.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\stubs\bytestream.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\stubs\common.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\stubs\int128.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\stubs\status.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\stubs\statusor.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\stubs\stringpiece.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\stubs\stringprintf.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\stubs\structurally_valid.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\stubs\strutil.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\stubs\time.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\wire_format_lite.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\any.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\any.pb.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\api.pb.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\compiler\importer.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\compiler\parser.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\descriptor.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\descriptor.pb.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\descriptor_database.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\duration.pb.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\dynamic_message.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\empty.pb.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\extension_set_heavy.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\field_mask.pb.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\generated_message_bases.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\generated_message_reflection.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\generated_message_table_driven.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\generated_message_tctable_full.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\io\gzip_stream.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\io\printer.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\io\tokenizer.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\map_field.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\message.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\reflection_ops.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\service.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\source_context.pb.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\struct.pb.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\stubs\substitute.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\text_format.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\timestamp.pb.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\type.pb.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\unknown_field_set.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\util\delimited_message_util.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\util\field_comparator.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\util\field_mask_util.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\util\internal\datapiece.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\util\internal\default_value_objectwriter.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\util\internal\error_listener.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\util\internal\field_mask_utility.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\util\internal\json_escaping.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\util\internal\json_objectwriter.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\util\internal\json_stream_parser.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\util\internal\object_writer.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\util\internal\proto_writer.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\util\internal\protostream_objectsource.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\util\internal\protostream_objectwriter.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\util\internal\type_info.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\util\internal\utility.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\util\json_util.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\util\message_differencer.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\util\time_util.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\util\type_resolver_util.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\wire_format.cc" />
+    <ClCompile Include="..\protobuf-3.19.4\src\google\protobuf\wrappers.pb.cc" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\any.pb.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\api.pb.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\compiler\importer.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\compiler\parser.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\descriptor.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\descriptor.pb.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\descriptor_database.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\duration.pb.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\dynamic_message.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\empty.pb.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\field_access_listener.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\field_mask.pb.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\generated_enum_reflection.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\generated_message_bases.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\generated_message_reflection.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\io\gzip_stream.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\io\printer.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\io\tokenizer.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\map_entry.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\map_field.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\map_field_inl.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\message.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\metadata.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\reflection.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\reflection_ops.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\service.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\source_context.pb.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\struct.pb.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\text_format.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\timestamp.pb.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\type.pb.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\unknown_field_set.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\util\delimited_message_util.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\util\field_comparator.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\util\field_mask_util.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\util\json_util.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\util\message_differencer.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\util\time_util.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\util\type_resolver.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\util\type_resolver_util.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\wire_format.h" />
+    <ClInclude Include="..\protobuf-3.19.4\src\google\protobuf\wrappers.pb.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
