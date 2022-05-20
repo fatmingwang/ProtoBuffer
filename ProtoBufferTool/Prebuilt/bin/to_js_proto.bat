@@ -1,1 +1,1 @@
-protoc --proto_path=./proto --js_out=./cpp_proto  ./proto/*.proto
+protoc --keep-case:true --js_out=import_style=commonjs,binary:./cpp_proto  ./proto/*.proto

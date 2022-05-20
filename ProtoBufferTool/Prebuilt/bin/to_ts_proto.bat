@@ -1,0 +1,1 @@
+protoc --proto_path=./proto --ts_out=./cpp_proto  ./proto/*.proto
