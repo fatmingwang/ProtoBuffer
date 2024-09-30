@@ -1,3 +1,14 @@
+1.add submodule for your repository
+2.unzip  protobuf-cpp-3.19.4.zip
+3.add exists project libprotobuf.vcxproj
+4.in your project add additional include directory protobuf-3.19.4 src
+5.link library
+
+
+
+
+below is way to generate VS project
+
 https://github.com/protocolbuffers/protobuf/blob/master/src/README.md
 https://developers.google.com/protocol-buffers/docs/proto3#generating
 
@@ -48,3 +59,7 @@ for c++
 protoc --proto_path=Your_proto_file_directory --cpp_out=out_put_directory  Your_proto_file_directory\*.proto
 for javascript++
 protoc --proto_path=Your_proto_file_directory --js_out=out_put_directory  Your_proto_file_directory\*.proto
+
+
+
+make VSProject libprotobuf.vcxproj change file path with text editor.

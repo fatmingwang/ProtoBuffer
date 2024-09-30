@@ -40,7 +40,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{AA2F9274-A914-3C9D-8FE7-9ED3303EC581}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>libprotobuf</ProjectName>
@@ -103,7 +103,7 @@
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\Debug\</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_NoPthread|x64'">E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_NoPthread|x64'">..\ProtoBuffer\VSPproject\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\..\Intermedia\$(Configuration)\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_NoPthread|x64'">libprotobuf.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectName)</TargetName>
@@ -115,7 +115,7 @@
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Emscripten'">.a</TargetExt>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug_NoPthread|Emscripten'">.a</TargetExt>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\Release\</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_NoPthread|x64'">E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_NoPthread|x64'">..\ProtoBuffer\VSPproject\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\..\Intermedia\$(Configuration)\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_NoPthread|x64'">libprotobuf.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectName)</TargetName>
@@ -149,10 +149,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GOOGLE_PROTOBUF_CMAKE_BUILD;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ProtoBuffer\protobuf-3.19.4\src;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ProtoBuffer\protobuf-3.19.4\src;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -165,7 +165,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_NoPthread|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ProtoBuffer\protobuf-3.19.4\src;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /utf-8 /bigobj</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -185,10 +185,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GOOGLE_PROTOBUF_CMAKE_BUILD;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ProtoBuffer\protobuf-3.19.4\src;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ProtoBuffer\protobuf-3.19.4\src;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -223,7 +223,7 @@
       <ObjectFileName>$(IntDir)%(Filename).o</ObjectFileName>
     </ClCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ProtoBuffer\protobuf-3.19.4\src;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -258,7 +258,7 @@
       <ObjectFileName>$(IntDir)%(Filename).o</ObjectFileName>
     </ClCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ProtoBuffer\protobuf-3.19.4\src;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -291,10 +291,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GOOGLE_PROTOBUF_CMAKE_BUILD;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ProtoBuffer\protobuf-3.19.4\src;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ProtoBuffer\protobuf-3.19.4\src;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -307,7 +307,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoPthread|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ProtoBuffer\protobuf-3.19.4\src;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /utf-8 /bigobj</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>4018;4065;4146;4244;4251;4267;4305;4307;4309;4334;4355;4506;4800;4996</DisableSpecificWarnings>
@@ -327,10 +327,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GOOGLE_PROTOBUF_CMAKE_BUILD;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ProtoBuffer\protobuf-3.19.4\src;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ProtoBuffer\protobuf-3.19.4\src;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -366,7 +366,7 @@
       </DebugInformationFormat>
     </ClCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ProtoBuffer\protobuf-3.19.4\src;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -402,7 +402,7 @@
       </DebugInformationFormat>
     </ClCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\VSPproject;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\src;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;E:\Work\DireSoftware\baccarat\Src\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ProtoBuffer\protobuf-3.19.4\src;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googletest\include;..\ProtoBuffer\protobuf-3.19.4\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
