@@ -1,1 +1,1 @@
-protoc --proto_path=./proto --cpp_out=./cpp_proto  ./proto/*.proto
+protoc --proto_path=./proto_place_here --cpp_out=./generated_cpp_proto  ./proto_place_here/*.proto

@@ -1,1 +1,1 @@
-protoc --keep-case:true --js_out=import_style=commonjs,binary:./cpp_proto  ./proto/*.proto
+protoc --js_out=import_style=commonjs,binary:./generated_js_protobuf  ./proto_place_here/*.proto

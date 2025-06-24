@@ -30,3 +30,17 @@ for c++
 protoc --proto_path=Your_proto_file_directory --cpp_out=out_put_directory  Your_proto_file_directory\*.proto
 for javascript++
 protoc --proto_path=Your_proto_file_directory --js_out=out_put_directory  Your_proto_file_directory\*.proto
+
+
+
+for grpc
+
+git clone https://github.com/microsoft/vcpkg.git
+cd vcpkg
+bootstrap-vcpkg.bat
+vcpkg install grpc:x64-windows protobuf:x64-windows
+vcpkg integrate install
+vcpkg install openssl:x64-windows
+
+for grpc
+protoc --cpp_out=. --grpc_out=. --plugin=protoc-gen-grpc=<path_to_vcpkg>\installed\x64-windows\tools\grpc\grpc_cpp_plugin.exe ReplaceYourProtoFileName.proto

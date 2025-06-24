@@ -1,1 +1,1 @@
-protoc --proto_path=./proto --ts_out=./cpp_proto  ./proto/*.proto
+protoc --proto_path=proto_place_here --ts_out=generated_ts_protobuf  proto_place_here/*.proto
