@@ -1,3 +1,5 @@
+if compiler show incompatible please use correct protoc file(please check version by mouse right button)
+
 https://github.com/protocolbuffers/protobuf/blob/master/src/README.md
 https://developers.google.com/protocol-buffers/docs/proto3#generating
 
