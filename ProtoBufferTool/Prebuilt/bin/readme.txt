@@ -40,7 +40,7 @@ for grpc
 git clone https://github.com/microsoft/vcpkg.git
 cd vcpkg
 bootstrap-vcpkg.bat
-vcpkg install grpc:x64-windows protobuf:x64-windows
+vcpkg install grpc:x64-windows-static
 vcpkg integrate install
 vcpkg install openssl:x64-windows
 

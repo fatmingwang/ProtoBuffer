@@ -3,6 +3,20 @@ syntax = "proto3";
 package greeter;
 
 service Greeter {
+  rpc SendMessage (HelloRequest) returns (HelloReply) {}
+}
+
+message HelloRequest {
+  string name = 1;
+  string message = 2;
+}
+
+message HelloReply {
+  string response = 1;
+}
+
+
+service Greeter777 {
   rpc SendMessage (HelloRequest777) returns (HelloReply888) {}
 }
 
