@@ -14,17 +14,3 @@ message HelloRequest {
 message HelloReply {
   string response = 1;
 }
-
-
-service Greeter777 {
-  rpc SendMessage (HelloRequest777) returns (HelloReply888) {}
-}
-
-message HelloRequest777 {
-  string name777 = 1;
-  string message777 = 2;
-}
-
-message HelloReply888 {
-  string response888 = 1;
-}

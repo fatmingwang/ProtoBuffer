@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@protobuf-ts/protoc": "^2.11.1",
+    "ts-proto": "^2.7.5"
+  }
+}

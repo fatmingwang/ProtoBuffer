@@ -46,3 +46,7 @@ vcpkg install openssl:x64-windows
 
 for grpc
 protoc --cpp_out=. --grpc_out=. --plugin=protoc-gen-grpc=<path_to_vcpkg>\installed\x64-windows\tools\grpc\grpc_cpp_plugin.exe ReplaceYourProtoFileName.proto
+
+
+
+npm install -g protoc-gen-js protoc-gen-grpc-web
